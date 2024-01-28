@@ -20,7 +20,10 @@ const GenerateFeature = ({ icon, title, content, index }) => (
   </div>
 );
 const Billing = () => (
-  <div className={`${styles.paddingY} flex  items-start md:flex-row flex-col`}>
+  <div
+    id="Features"
+    className={`${styles.paddingY} flex  items-start md:flex-row flex-col`}
+  >
     <div className={`${styles.flexStart} flex-1 flex-col`}>
       <h1 className="text-white font-poppins font-semibold leading-[55px] capitalize text-[35px] ">
         you do the business , <br className="ss:block hidden " />

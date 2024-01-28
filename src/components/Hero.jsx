@@ -5,6 +5,7 @@ import GetStarted from "./GetStarted";
 import { robot } from "../assets";
 const Hero = () => (
   <div
+    id="home"
     className={`flex md:flex-row  flex-col items-start   ${styles.paddingY}`}
   >
     <div

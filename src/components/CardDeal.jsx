@@ -2,7 +2,10 @@ import React from "react";
 import { bill, google, apple } from "../assets";
 import styles from "../stykes";
 const CardDeal = () => (
-  <div className=" flex justify-between items-center md:flex-row flex-col-reverse w-full md:py-16  py-6">
+  <div
+    id="product"
+    className=" flex justify-between items-center md:flex-row flex-col-reverse w-full md:py-16  py-6"
+  >
     <div className="flex-1 relative flex items-center md:mt-0 mt-6 ">
       <img
         src={bill}

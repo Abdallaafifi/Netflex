@@ -4,7 +4,10 @@ import { card } from "../assets";
 
 const Business = () => {
   return (
-    <div className="flex md:flex-row flex-col-reverse items-start gap-6 md:py-16 py-6 ">
+    <div
+      id="features"
+      className="flex md:flex-row flex-col-reverse items-start gap-6 md:py-16 py-6 "
+    >
       <div className="flex flex-1 flex-col items-start">
         <h1 className="font-poppins sm:text-[42px] text-[32px] leading-[45px] font-semibold sm:leading-[55px] text-white mb-4">
           Find a better card deal in few easy steps.

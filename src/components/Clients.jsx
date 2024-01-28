@@ -4,7 +4,7 @@ import { feedback } from "../constans";
 import FeedbackCard from "./FeedbackCard";
 const Clients = () => {
   return (
-    <div className="flex items-start justify-start flex-col">
+    <div id="clients" className="flex items-start justify-start flex-col">
       <div className="sm:flex-row flex-col flex w-full  justify-between sm:items-center items-start">
         <h1 className="font-poppins sm:text-[42px] text-[32px]  w-[400px] leading-[45px] font-semibold sm:leading-[55px] text-white mb-4">
           What people are saying about us
