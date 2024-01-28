@@ -30,7 +30,7 @@ const Hero = () => (
         </div>
       </div>
       {/* <div className=""> */}
-      <h1 className="text-white ss:text-[65px]  ss:leading-[75px] text-[40px] leading-[50px] mb-4  capitalize sm:font-bold  font-bold  font-poppins">
+      <h1 className="text-white ss:text-[65px]  ss:leading-[75px] text-[35px] leading-[45px] mb-4  capitalize sm:font-bold  font-bold  font-poppins">
         payment method.
       </h1>
 
