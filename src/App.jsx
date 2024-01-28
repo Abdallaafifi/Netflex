@@ -24,7 +24,12 @@ const App = () => {
     }
   });
   return (
-    <div className="bg-primary w-full overflow-hidden">
+    <div className="bg-primary w-full overflow-hidden" id="up">
+      <a
+        href="#up"
+        style={{ opacity: state ? 1 : 0, transition: ".4s ease" }}
+        className="fixed bottom-5 right-5 sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] rounded-full bg-slate-400 z-[50]"
+      ></a>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -49,11 +54,6 @@ const App = () => {
           <Testimonials />
         </div>
       </div>
-
-      <div
-        style={{ opacity: state ? 1 : 0, transition: ".3s" }}
-        className="fixed bottom-5 right-5  sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] rounded-full bg-slate-400 z-[50] "
-      ></div>
     </div>
   );
 };
