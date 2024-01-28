@@ -21,7 +21,7 @@ const Hero = () => (
         </p>
       </div>
       <div className="flex sm:flex-row flex-col items-start w-full justify-between">
-        <h1 className="text-white text-[35px] leading-[45px] capitalize  sm:font-bold font-semibold font-poppins ss:text-[65px] ss:leading-[75px] ">
+        <h1 className="text-white text-[35px] leading-[45px] xs:text-[35px] xs:leading-[45px] leading-[40px] text-[30px] capitalize  sm:font-bold font-semibold font-poppins ss:text-[65px] ss:leading-[75px] ">
           the next <br className="sm:flex hidden" />{" "}
           <span className="text-gradient">generation</span>
         </h1>
@@ -30,7 +30,7 @@ const Hero = () => (
         </div>
       </div>
       {/* <div className=""> */}
-      <h1 className="text-white ss:text-[65px]  ss:leading-[75px] text-[35px] leading-[45px] mb-4  capitalize sm:font-bold  font-bold  font-poppins">
+      <h1 className="text-white ss:text-[65px]  ss:leading-[75px]  xs:text-[35px] xs:leading-[45px] leading-[40px] text-[30px] mb-4  capitalize sm:font-bold  font-bold  font-poppins">
         payment method.
       </h1>
 
