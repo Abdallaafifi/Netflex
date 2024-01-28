@@ -12,7 +12,9 @@ const Hero = () => (
     >
       <div className="py-[5px] px-[8px] flex flex-row rounded-[8px]  mb-5 items-center bg-discount-gradient">
         <img src={discount} className={"w-[35px] h-[35px]"} alt="discount" />
-        <p className={`text-[#757575] uppercase ${styles.paragraph} `}>
+        <p
+          className={`text-[#777676] uppercase font-normal ml-3 font-poppins sm:text-[16px] text-[14px] leading-[24px] sm:leading-[28px] `}
+        >
           <span className=" text-white "> 20% </span>
           discount for <span className=" text-white "> 1 month </span>
           account
