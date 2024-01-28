@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   Billing,
@@ -14,6 +14,15 @@ import {
 import styles from "./src/style";
 
 const App = () => {
+  const [state, setState] = useState(false);
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 400) {
+      setState(true);
+    } else {
+      setState(false);
+    }
+  });
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -40,6 +49,11 @@ const App = () => {
           <Testimonials />
         </div>
       </div>
+
+      <div
+        style={{ opacity: state ? 1 : 0, transition: ".3s" }}
+        className="fixed bottom-5 right-5  sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] rounded-full bg-slate-400 z-[50] "
+      ></div>
     </div>
   );
 };
