@@ -13,7 +13,7 @@ const Hero = () => (
       <div className="py-[5px] px-[8px] flex flex-row rounded-[8px]  mb-5 items-center bg-discount-gradient">
         <img src={discount} className={"w-[35px] h-[35px]"} alt="discount" />
         <p
-          className={`text-[#777676] uppercase font-normal ml-3 font-poppins sm:text-[16px] text-[14px] leading-[24px] sm:leading-[28px] `}
+          className={`text-[#777676] uppercase font-normal ml-3 font-poppins sm:text-[16px] text-[14px] leading-[24px] sm:leading-[px] `}
         >
           <span className=" text-white "> 20% </span>
           discount for <span className=" text-white "> 1 month </span>
@@ -23,7 +23,7 @@ const Hero = () => (
       <div className="flex sm:flex-row flex-col items-start w-full justify-between">
         <h1 className="text-white text-[40px] leading-[50px] capitalize sm:font-bold font-semibold font-poppins ss:text-[65px] ss:leading-[75px] ">
           the next <br className="sm:flex hidden" />{" "}
-          <span className="text-gradient">cristiano</span>
+          <span className="text-gradient">generation</span>
         </h1>
         <div className={`sm:flex hidden justify-center items-center`}>
           <GetStarted />
