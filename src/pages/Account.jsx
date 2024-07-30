@@ -14,7 +14,7 @@ const Account = () => {
         <h1 className="absolute top-[20%] left-0 md:px-8 px-4 font-bold text-white md:text-3xl text-[30px]">
           My shows
         </h1>
-        <SavedShows />
+        {/* <SavedShows /> */}
       </div>
     </>
   );
