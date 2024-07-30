@@ -13,7 +13,7 @@ import NavBar from "./compononet/NavBar";
 import LogIn from "./pages/logIn";
 import SignUp from "./pages/signUp";
 import NewMovie from "./pages/NewMovie";
-import ProtectAuth from "./compononet/protectAuth";
+// import ProtectAuth from "./compononet/protectAuth";
 import Account from "./pages/Account";
 export const Items = () => {
   const data = JSON.parse(localStorage.getItem("data"));
@@ -110,10 +110,10 @@ const App = () => {
           <Route path="/mov/:i" Component={NewMovie} />
           <Route
             path="/a10/Account"
-            element={
-              <ProtectAuth>
-                <Account />
-              </ProtectAuth>
+            Component={
+              // <ProtectAuth>
+              Account
+              // </ProtectAuth>
             }
           />
         </Routes>

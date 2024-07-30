@@ -17,7 +17,7 @@ const NavBar = () => {
     <>
       <div className="w-full px-8  fixed top-0 left-0 py-4 z-[100]">
         <div className="flex justify-between items-start">
-          <Link to={"/a10/" + "Account"}>
+          <Link to={"/Account"}>
             <h1 className="text-red-600 text-2xl md:text-4xl capitalize">
               movies
             </h1>
@@ -25,7 +25,7 @@ const NavBar = () => {
 
           {user?.email ? (
             <div className="">
-              <Link to={"/Account"}>
+              <Link to={"/a10/Account"}>
                 <button className="text-[16px] text-white font-semibold capitalize mr-4">
                   account
                 </button>
