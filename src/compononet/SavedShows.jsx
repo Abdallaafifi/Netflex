@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { MdClose } from "react-icons/md";
-import { Link } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
 import { dp } from "../firebase";
 
