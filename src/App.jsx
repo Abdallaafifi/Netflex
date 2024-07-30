@@ -108,18 +108,11 @@ const App = () => {
           <Route path="/signUp" Component={SignUp} />
           {/* <Route path="/movie/:id" Component={Items} /> */}
           <Route path="/mov/:i" Component={NewMovie} />
-          <Route
-            path="/a10/Account"
-            Component={
-              // <ProtectAuth>
-              Account
-              // </ProtectAuth>
-            }
-          />
+          <Route path="/a10/Account" Component={Account} />
         </Routes>
       </AuthContextProvider>
     </>
   );
 };
-
+// </ProtectAuth>     // <ProtectAuth>
 export default App;

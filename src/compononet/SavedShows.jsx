@@ -29,7 +29,7 @@ const SavedShows = () => {
         saveShows: FilterMovie,
       });
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
   };
 
@@ -65,7 +65,7 @@ const SavedShows = () => {
                     {item?.title}
                   </p>
                   <p
-                    onClick={() => filter(item.id)}
+                    onClick={() => filter(item?.id)}
                     className="absolute top-2 right-2"
                   >
                     <MdClose size={20} color="white" />
