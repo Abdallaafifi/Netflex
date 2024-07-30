@@ -7,7 +7,7 @@ const Account = () => {
       <div className="w-full h-full">
         <img
           src="/public/assets/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg"
-          alt="footer.pmg"
+          alt="footer"
           className="w-full h-[400px] object-cover"
         />
         <div className="bg-black/60 fixed top-0 left-0 h-[550px] w-full"></div>
