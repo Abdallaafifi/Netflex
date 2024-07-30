@@ -19,7 +19,7 @@ const NavBar = () => {
         <div className="flex justify-between items-start">
           <Link to={"/"}>
             <h1 className="text-red-600 text-2xl md:text-4xl capitalize">
-              netflex
+              movies
             </h1>
           </Link>
 
