@@ -23,6 +23,7 @@ export const Items = () => {
     <>
       <div className=" text-white w-full relative top-0 h-screen  p-[4rem] overflow-hidden">
         <div className="">
+          he
           <img
             src={`https://image.tmdb.org/t/p/original/${data?.backdrop_path}`}
             alt="backdrop"
