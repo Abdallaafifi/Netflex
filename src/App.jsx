@@ -110,11 +110,7 @@ const App = () => {
           <Route path="/mov/:i" Component={NewMovie} />
           <Route
             path="/Account"
-            element={
-              <ProtectAuth>
-                <Account />
-              </ProtectAuth>
-            }
+            Component={<ProtectAuth>{Account}</ProtectAuth>}
           />
         </Routes>
       </AuthContextProvider>
